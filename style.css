@@ -1,17 +1,122 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .banner {
-    
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column
+
 }
 
 .navbar {
+    display: flex;
+    justify-content: space-around;
 
 }
 
 
-.titleInfo {
 
+.backupHero {
+    font-size: 18px;
+    color: #e5e7eb;
+    align-items: center;
+    align-content: center;
+    margin-left: 10px;
+    font-weight: 900;
+}
+
+ul {
+    text-decoration-style: none;
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    text-decoration: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*  This starts the main content of the banner */
+
+.titleInfo {
+    display: flex;
+    gap: 25px;
+    margin: 0 auto;
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+.mainHero {
+    font-size: 48px;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 0px;
+    text-align: start;
+
+
+}
+
+.divHero {
+    
+    text-align:start;
+
+
+    /* apparently I don't need any of this 
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    */
+}
+
+/* look up rounded corners here */ 
+
+.divHero button {
+    width: 100px;
+    justify-content: left;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.divHero p {
+    text-align: start; 
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+
+
+
+
+.imagePlaceHolder {
+    background-color: #6d747d;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+    flex-shrink: 0;
+
+}
+
+.imagePlaceHolder, p {
+    padding: 10px;
+  
 }
