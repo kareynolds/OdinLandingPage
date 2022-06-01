@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>OdinLandingPage</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -27,7 +27,7 @@
             <p>This website has some subtext that goes here under the 
                 main title. It's a smaller font and the color is lower contrast.
             </p>
-            <button><a href="">Sign up</a></button>
+            <button class="hero-button"><a href="">Sign up</a></button>
           </div>
           <div class="imagePlaceHolder">
               <p>this is a placeholder for an image</p>
@@ -37,17 +37,77 @@
     
 
   <div class="randomInfoContainer"> 
-      <div class="heroStatement"> 
-         <h2> Some Random information </h2>
-      </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+
+    <h2 class="heroStatement"> Some Random information </h2>
+
+      <div class="infoBoxContainer"> 
+
+
+         <div class="infoBox">
+            <div class="box">  </div>
+            <p> Each box is contained within a large parent div, 
+                and its own separate div.  </p>
+        </div>
+
+        <div class="infoBox">
+            <div class="box">  </div>
+            <p> Display: flex is set upon the 
+                main large parent and allows the boxes to sit side by side. </p>
+        </div>
+
+        <div class="infoBox">
+            <div class="box">  </div>
+            <p> Justify content: center provides the alignment. 
+                  </p>
+        </div>
+
+
+        <div class="infoBox">
+            <div class="box">  </div>
+            <p> While setting a max width of percentage keeps
+                the webpage somewhat responsive.  </p>
+        </div>
+
+
+
+    </div>
 
   </div>
 
+  <div class="inspoQuoteContainer">
+    <div class="quotes">
+        <h2 class="inspoQuote">
+            This is an inspiration quote, maybe its a call to action,
+            maybe it inspires deep thought? All I know is it looks nice.
+        </h2>
+
+        <p class="author"> 
+            -Thor, God of Thunder
+        </p>
+    </div>
+  </div>
+
+    <div class="callToActionParent"> 
+        
+        <div class="calltoActionContainer">
+
+            <div class="words">
+                <h3 class="wordsh3"> Call to Action!</h3>
+                <p class="wordsp"> words prompting the person what to do.</p>
+            </div>
+
+            <div class="signUpButton"> 
+                <button><a href="">Sign Up!</a></button>
+            </div>
+
+         </div>
+
+
+
+
+
+    </div>
 
 
 </body>

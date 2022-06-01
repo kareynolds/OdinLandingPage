@@ -104,6 +104,7 @@ a {
 
 
 
+
 .imagePlaceHolder {
     background-color: #6d747d;
     margin: 5px;
@@ -119,4 +120,104 @@ a {
 .imagePlaceHolder, p {
     padding: 10px;
   
+}
+
+
+.heroStatement {
+    text-align: center;
+}
+
+.infoBoxContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: 2px solid #3b82f6;
+    padding: 50px;
+    border-radius: 10px;
+    height: 2em;
+}
+
+.infoBox {
+    margin: 1em;
+    width: 15%
+}
+
+.randomInfoContainer {
+    padding-bottom: 15px; 
+}
+
+
+.inspoQuoteContainer {
+    background-color: #e5e7eb;
+    height: 15em;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.quotes {
+    margin-top: 3em;
+    width: 75%;
+}
+
+.inspoQuote {
+    text-align: center;
+    color: #1f2937;
+    font-style: italic;
+
+}
+
+.author {
+    text-align: end;
+    font-weight: bold;
+}
+
+
+
+.calltoActionContainer {
+    background-color: #3882f6;
+    Width: 75%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+
+}
+.callToActionParent {
+    display: flex;
+    justify-content: center;
+    Margin: 2em;
+ 
+}
+
+.signUpButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+}
+
+.signUpButton button {
+    background-color: #3882f6;
+    border-style: none;
+    border: 1px solid white;
+    padding: 5px 10px 5px 10px; 
+    border-radius: 5px;
+}
+
+.wordsh3 {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+
+}
+
+.wordsp { 
+    Padding: 0px;
+    margin: 0px;
+    Color: white;
 }
